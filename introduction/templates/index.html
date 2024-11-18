@@ -1,0 +1,24 @@
+{% load static %}
+<html>
+    <head>
+        <link href="{% static 'style.css' %}"rel="stylesheet"type="text/css">
+    </head>
+    <body>
+        <div class="img">
+            <img src="{% static 'picture.jpg' %}"id="img">
+        </div>
+        <div id="context">
+            <p>熊野 陽太(くまの ようた)と申します。</p>
+            <p>大阪出身で、現在、立命館大学理工学部機械工学科4回生です。</p>
+            <p>2025年4月より東北大学大学院工学研究科ロボティクス専攻に進学予定です。</p>
+            <p></p>
+            <p>2023年8月にGMOインターネットグループのハッカソン型インターンに参加しました。</p>
+            <p>グループは優勝[<a href="https://team-c-frontend.vercel.app/login">プロジェクト</a>]フロントエンド(React)を担いました。</p>
+            <p>力が足りないことを痛感したことと機械工学？ということでメカな部分も触りたいと思っていたことから進学を決意しました。</p>
+            <p></p>
+            <p>学業:学内成績優秀賞をいただきました。</p>
+            <p>他:サッカーを13年間していました。忍耐力と継続力はあります。</p>
+        </div>
+        <img src="{% url 'graph' %}">
+    </body>
+</html>

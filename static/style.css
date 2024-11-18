@@ -1,0 +1,25 @@
+body{
+    width:96vw;
+    margin:0 2vw;
+    background-color:#F5F5F5;
+    text-align:center;
+}
+.img{
+    height:30vh;
+    margin:2vh auto 0 auto;
+}
+#img{
+    width:20vh;
+    border-radius:50%;
+}
+#context{
+    height:50vh;
+    background-color: azure;
+}
+#context>p{
+    height:5vh;
+    font-size:24px;
+    margin-top:0;
+    margin-bottom:0;
+    background-color: aliceblue;
+}
